@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# With @netlify/plugin-nextjs, /api/submit-lead is handled by Next.js (Google Sheets + webhook).
+# Uncomment below only for static/legacy deploys without the Next API route:
+# [[redirects]]
+#   from = "/api/submit-lead"
+#   to = "/.netlify/functions/submit-lead"
+#   status = 200
+#   force = true
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain"
