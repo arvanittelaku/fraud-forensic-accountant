@@ -8,9 +8,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd, organizationSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountants for Civil Fraud Solicitors UK | Asset Tracing & Recovery",
+  title: "Fraud Forensic Accountants for Civil Fraud Solicitors | Asset Tracing & Recovery",
   description:
-    "Fraud forensic accountants for UK civil fraud solicitors. Freezing injunction support, asset tracing, POCA civil recovery, UWOs, Norwich Pharmacal, and CPR Part 35 expert reports.",
+    "Fraud forensic accountants for civil fraud solicitors. Freezing injunction support, asset tracing, POCA civil recovery, UWOs, Norwich Pharmacal, and CPR Part 35 expert reports.",
   path: "/who-we-help/civil-fraud-solicitors",
 });
 
@@ -31,7 +31,7 @@ export default function CivilFraudSolicitorsPage() {
         }}
       />
       <PageHero
-        title="Fraud Forensic Accountants for Civil Fraud Solicitors UK"
+        title="Fraud Forensic Accountants for Civil Fraud Solicitors"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Who We Help", href: "/who-we-help" },

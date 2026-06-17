@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 export type NavLink = { href: string; label: string };
 
@@ -17,22 +17,13 @@ export function NavDropdown({
   onNavigate?: () => void;
 }) {
   const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    function handleClickOutside(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) {
-        setOpen(false);
-      }
-    }
-    if (open) {
-      document.addEventListener("mousedown", handleClickOutside);
-      return () => document.removeEventListener("mousedown", handleClickOutside);
-    }
-  }, [open]);
 
   return (
-    <div ref={ref} className="relative">
+    <div
+      className="relative"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
       <div className="flex items-center">
         {href ? (
           <Link
@@ -44,13 +35,9 @@ export function NavDropdown({
         ) : (
           <span className="px-2 py-2 text-sm text-body">{label}</span>
         )}
-        <button
-          type="button"
-          className={`min-h-[44px] min-w-[36px] rounded-r-[4px] px-1 py-2 text-body hover:bg-section-alt hover:text-charcoal ${!href ? "rounded-l-[4px] pl-2" : ""}`}
-          aria-expanded={open}
-          aria-haspopup="true"
-          aria-label={`${label} menu`}
-          onClick={() => setOpen(!open)}
+        <span
+          className={`flex min-h-[44px] min-w-[36px] items-center justify-center rounded-r-[4px] px-1 py-2 text-body ${!href ? "rounded-l-[4px] pl-2" : ""} ${open ? "bg-section-alt text-charcoal" : ""}`}
+          aria-hidden
         >
           <svg
             className={`h-4 w-4 transition ${open ? "rotate-180" : ""}`}
@@ -60,30 +47,32 @@ export function NavDropdown({
           >
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
-        </button>
+        </span>
       </div>
-      {open && (
-        <ul
-          role="menu"
-          className="absolute left-0 top-full z-50 mt-1 max-h-[min(70vh,24rem)] min-w-[16rem] overflow-y-auto rounded-[8px] border border-border bg-white py-2 shadow-[var(--shadow-card)]"
-        >
-          {links.map((link) => (
-            <li key={link.href} role="none">
-              <Link
-                href={link.href}
-                role="menuitem"
-                className="block px-4 py-2.5 text-sm text-body hover:bg-section-alt hover:text-charcoal"
-                onClick={() => {
-                  setOpen(false);
-                  onNavigate?.();
-                }}
-              >
-                {link.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+      <ul
+        role="menu"
+        className={`absolute left-0 top-full z-50 mt-0 max-h-[min(70vh,24rem)] min-w-[16rem] overflow-y-auto rounded-[8px] border border-border bg-white py-2 shadow-[var(--shadow-card)] transition-opacity duration-150 ${
+          open
+            ? "pointer-events-auto visible opacity-100"
+            : "pointer-events-none invisible opacity-0"
+        }`}
+      >
+        {links.map((link) => (
+          <li key={link.href} role="none">
+            <Link
+              href={link.href}
+              role="menuitem"
+              className="block px-4 py-2.5 text-sm text-body hover:bg-section-alt hover:text-charcoal"
+              onClick={() => {
+                setOpen(false);
+                onNavigate?.();
+              }}
+            >
+              {link.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }

@@ -34,13 +34,13 @@ export default function HomePage() {
       <section className="bg-charcoal py-14 md:py-20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-            Fraud Forensic Accountant Services for UK Solicitors & Corporates
+            Fraud Forensic Accountant Services for Solicitors & Corporates
           </h1>
           <p className="mt-6 max-w-4xl text-lg text-white/80">
             Whether you are defending a fraud prosecution, pursuing civil recovery, conducting an
             internal investigation, or preparing for SFO self-reporting, you need a forensic
             accountant who understands the full landscape of fraud: civil, criminal, and regulatory.
-            FraudForensicAccountant.com connects UK solicitors and corporates with qualified fraud
+            FraudForensicAccountant.com connects solicitors and corporates with qualified fraud
             forensic accountants across every context.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -93,7 +93,7 @@ export default function HomePage() {
       <section className="bg-section-alt py-14 md:py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-heading sm:text-3xl">
-            Fraud Enforcement UK: Key 2025-2026 Facts
+            Fraud Enforcement: Key 2025-2026 Facts
           </h2>
           <ResponsiveTable>
             <table className="w-full border-collapse text-sm">

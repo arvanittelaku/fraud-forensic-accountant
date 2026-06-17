@@ -25,8 +25,7 @@ export function buildMetadata({
     alternates: {
       canonical: url,
       languages: {
-        "en-GB": url,
-        "en-US": url,
+        en: url,
         "x-default": url,
       },
     },
@@ -35,14 +34,14 @@ export function buildMetadata({
       description,
       url,
       siteName: "FraudForensicAccountant.com",
-      locale: "en_GB",
+      locale: "en",
       type: "website",
       images: [
         {
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: "Fraud Forensic Accountant UK",
+          alt: "Fraud Forensic Accountant",
         },
       ],
     },

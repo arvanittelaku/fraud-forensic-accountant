@@ -184,7 +184,7 @@ export const services: Service[] = [
     caseType: "money-laundering-proceedings",
     faqs: [
       {
-        question: "Can stolen cryptocurrency be traced and recovered in UK proceedings?",
+        question: "Can stolen cryptocurrency be traced and recovered in proceedings?",
         answer:
           "Yes. Blockchain analysis traces wallet flows, identifies exchange accounts, and supports Part 5 POCA civil recovery of crypto-assets as property obtained through unlawful conduct.",
       },

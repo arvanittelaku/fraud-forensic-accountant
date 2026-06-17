@@ -7,9 +7,9 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 import { caseTypes } from "@/data/case-types";
 
 export const metadata = buildMetadata({
-  title: "Case Types for Fraud Forensic Accountants | UK Civil & Criminal Guide",
+  title: "Case Types for Fraud Forensic Accountants | Civil & Criminal Guide",
   description:
-    "Which UK proceedings need a fraud forensic accountant? SFO investigations, POCA confiscation, UWOs, civil fraud recovery, DPAs, FCA enforcement, and private prosecution explained.",
+    "Which proceedings need a fraud forensic accountant? SFO investigations, POCA confiscation, UWOs, civil fraud recovery, DPAs, FCA enforcement, and private prosecution explained.",
   path: "/case-types",
 });
 
@@ -23,8 +23,8 @@ export default function CaseTypesHubPage() {
         ])}
       />
       <PageHero
-        title="Case Types for Fraud Forensic Accountants UK"
-        subtitle="UK civil and criminal proceedings where specialist fraud forensic accounting evidence is required."
+        title="Case Types for Fraud Forensic Accountants"
+        subtitle="civil and criminal proceedings where specialist fraud forensic accounting evidence is required."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Case Types" }]}
       />
       <section className="py-14 md:py-16">

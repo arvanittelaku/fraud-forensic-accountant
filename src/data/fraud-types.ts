@@ -4,10 +4,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "corporate-fraud",
     title: "Corporate Fraud",
-    metaTitle: "Corporate Fraud Forensic Accountant UK",
+    metaTitle: "Corporate Fraud Forensic Accountant",
     metaDescription:
-      "Corporate fraud forensic accountant UK: financial statement fraud, management fraud, accounting irregularities, and board-level misconduct in civil and criminal proceedings.",
-    h1: "Corporate Fraud Forensic Accountant UK",
+      "Corporate fraud forensic accountant: financial statement fraud, management fraud, accounting irregularities, and board-level misconduct in civil and criminal proceedings.",
+    h1: "Corporate Fraud Forensic Accountant",
     paragraphs: [
       "Corporate fraud spans management fraud, employee fraud, accounting irregularities, and board-level misconduct. A fraud forensic accountant investigates the financial evidence, quantifies losses, and produces reports for civil recovery, criminal prosecution, or regulatory enforcement.",
       "Management fraud includes directors misusing company assets, undisclosed related-party transactions, and revenue manipulation. Employee fraud at corporate scale may involve procurement kickbacks, expense fraud, or payroll manipulation. Financial statement fraud involves intentional misstatement of accounts to mislead investors, lenders, or regulators.",
@@ -34,10 +34,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "investment-fraud-ponzi",
     title: "Investment Fraud & Ponzi Schemes",
-    metaTitle: "Investment Fraud & Ponzi Scheme Forensic Accountant UK",
+    metaTitle: "Investment Fraud & Ponzi Scheme Forensic Accountant",
     metaDescription:
-      "Investment fraud and Ponzi scheme forensic accountant UK: investor loss quantification, fund flow tracing, FCA enforcement, and asset recovery for victims.",
-    h1: "Investment Fraud & Ponzi Scheme Forensic Accountant UK",
+      "Investment fraud and Ponzi scheme forensic accountant: investor loss quantification, fund flow tracing, FCA enforcement, and asset recovery for victims.",
+    h1: "Investment Fraud & Ponzi Scheme Forensic Accountant",
     paragraphs: [
       "Investment fraud and Ponzi schemes require forensic accountants to reconstruct fund flows, quantify investor losses, and trace dissipated assets. Ponzi structures pay returns from new investor money rather than legitimate investment returns, creating complex tracing challenges when the scheme collapses.",
       "Forensic accountants produce investor loss schedules showing each investor's net loss (contributions minus returns received), total fraud quantum, and asset identification for civil recovery. FCA enforcement frequently runs alongside civil and criminal proceedings in unauthorised investment fraud cases.",
@@ -64,10 +64,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "bribery-corruption",
     title: "Bribery & Corruption",
-    metaTitle: "Bribery & Corruption Forensic Accountant UK | Bribery Act & SFO",
+    metaTitle: "Bribery & Corruption Forensic Accountant | Bribery Act & SFO",
     metaDescription:
-      "Bribery and corruption forensic accountant UK: Bribery Act 2010, SFO investigations, DPA disgorgement quantification, and failure to prevent bribery cases.",
-    h1: "Bribery & Corruption Forensic Accountant UK | Bribery Act & SFO Investigations",
+      "Bribery and corruption forensic accountant: Bribery Act 2010, SFO investigations, DPA disgorgement quantification, and failure to prevent bribery cases.",
+    h1: "Bribery & Corruption Forensic Accountant | Bribery Act & SFO Investigations",
     paragraphs: [
       "Bribery and corruption investigations under the Bribery Act 2010 require forensic accountants to trace corrupt payments, quantify business benefit received, and support both criminal prosecution and DPA negotiations. Sections 1, 2, 6, and 7 (corporate failure to prevent bribery) create distinct forensic accounting challenges.",
       "The SFO has pursued corporates through DPAs and, in notable cases, jury trial on failure to prevent bribery charges. Forensic accountants establish what was paid, to whom, through what channels, and what benefit the payer obtained.",
@@ -94,10 +94,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "money-laundering-aml",
     title: "Money Laundering & AML",
-    metaTitle: "Money Laundering & AML Forensic Accountant UK",
+    metaTitle: "Money Laundering & AML Forensic Accountant",
     metaDescription:
-      "Money laundering forensic accountant UK: POCA ss327-329, placement-layering-integration analysis, AML regulatory investigations, and proceeds tracing.",
-    h1: "Money Laundering & AML Forensic Accountant UK",
+      "Money laundering forensic accountant: POCA ss327-329, placement-layering-integration analysis, AML regulatory investigations, and proceeds tracing.",
+    h1: "Money Laundering & AML Forensic Accountant",
     paragraphs: [
       "Money laundering forensic accounting reconstructs the placement-layering-integration chain: how criminally obtained funds entered the financial system, were moved through complex transactions to obscure origin, and were integrated into the legitimate economy.",
       "POCA money laundering offences (sections 327-329) require analysis of knowledge, suspicion, and fund provenance. Forensic accountants trace laundered proceeds and produce evidence for both prosecution and defence.",
@@ -124,13 +124,13 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "crypto-fraud-digital-assets",
     title: "Crypto Fraud & Digital Assets",
-    metaTitle: "Crypto Fraud Forensic Accountant UK | Blockchain Analysis",
+    metaTitle: "Crypto Fraud Forensic Accountant | Blockchain Analysis",
     metaDescription:
-      "Crypto fraud forensic accountant UK: blockchain analysis, wallet tracing, POCA crypto recovery, and FCA cryptoasset regulation from October 2027.",
-    h1: "Crypto Fraud Forensic Accountant UK | Blockchain Analysis & Digital Asset Recovery",
+      "Crypto fraud forensic accountant: blockchain analysis, wallet tracing, POCA crypto recovery, and FCA cryptoasset regulation from October 2027.",
+    h1: "Crypto Fraud Forensic Accountant | Blockchain Analysis & Digital Asset Recovery",
     paragraphs: [
       "Crypto fraud forensic accounting uses blockchain analysis tools to trace wallet-to-wallet transactions, following stolen cryptocurrency through potentially thousands of obfuscating transfers. Forensic accountants identify wallet addresses, map transaction history, and produce court-admissible findings on asset location and value.",
-      "Part 5 POCA has been amended to allow civil recovery of crypto-assets without requiring criminal conviction. Exchange account analysis, NFT and DeFi fraud investigation, and cross-chain tracing are increasingly standard in UK fraud proceedings.",
+      "Part 5 POCA has been amended to allow civil recovery of crypto-assets without requiring criminal conviction. Exchange account analysis, NFT and DeFi fraud investigation, and cross-chain tracing are increasingly standard in fraud proceedings.",
       "The Treasury's cryptoasset regulatory framework brings fungible and transferable cryptoassets under full financial services regulation from October 2027, increasing compliance expectations and enforcement activity in the digital asset sector.",
     ],
     faqs: [
@@ -140,7 +140,7 @@ export const fraudTypes: ContentPage[] = [
           "Crypto forensic accounting uses blockchain analysis tools (Chainalysis, Elliptic) to trace wallet-to-wallet transactions, following the movement of stolen cryptocurrency through potentially thousands of transactions designed to obscure the trail. The forensic accountant identifies wallet addresses associated with the respondent, maps the transaction history, and produces court-admissible findings on asset location and value.",
       },
       {
-        question: "Can stolen cryptocurrency be recovered through UK courts?",
+        question: "Can stolen cryptocurrency be recovered through courts?",
         answer:
           "Part 5 POCA has been specifically amended to allow for recovery of crypto-assets through civil recovery orders, targeting the property itself rather than requiring criminal conviction. Forensic accountants provide the financial evidence establishing that the crypto represents property obtained through unlawful conduct, supporting the civil recovery application.",
       },
@@ -154,10 +154,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "tax-fraud-hmrc",
     title: "Tax Fraud & HMRC",
-    metaTitle: "Tax Fraud & HMRC Investigation Forensic Accountant UK",
+    metaTitle: "Tax Fraud & HMRC Investigation Forensic Accountant",
     metaDescription:
-      "Tax fraud forensic accountant UK: COP8 and COP9 investigations, tax evasion analysis, and HMRC Strengthened Reward Scheme whistleblower cases.",
-    h1: "Tax Fraud & HMRC Investigation Forensic Accountant UK",
+      "Tax fraud forensic accountant: COP8 and COP9 investigations, tax evasion analysis, and HMRC Strengthened Reward Scheme whistleblower cases.",
+    h1: "Tax Fraud & HMRC Investigation Forensic Accountant",
     paragraphs: [
       "HMRC fraud investigations range from COP8 civil fraud procedures to COP9 criminal investigations in the most serious cases. Forensic accountants reconstruct financial records, quantify the tax position, and support both taxpayer disclosure and defence.",
       "COP8 offers opportunity for full disclosure and payment of tax, interest, and penalties where HMRC suspects fraud. COP9 signals potential criminal prosecution. The distinction determines forensic approach and urgency.",
@@ -172,7 +172,7 @@ export const fraudTypes: ContentPage[] = [
       {
         question: "How does the HMRC whistleblower reward scheme work?",
         answer:
-          "HMRC's Strengthened Reward Scheme offers informants 15-30% of tax recovered over £1.5 million in serious tax cases, representing a significant shift from the UK's traditionally limited approach to whistleblower rewards. Forensic accountants assist corporates facing whistleblower-triggered investigations by conducting independent financial analysis before HMRC contacts them.",
+          "HMRC's Strengthened Reward Scheme offers informants 15-30% of tax recovered over £1.5 million in serious tax cases, representing a significant shift from a traditionally limited approach to whistleblower rewards. Forensic accountants assist corporates facing whistleblower-triggered investigations by conducting independent financial analysis before HMRC contacts them.",
       },
     ],
     relatedCaseTypes: [
@@ -183,10 +183,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "procurement-fraud-public-sector",
     title: "Procurement Fraud",
-    metaTitle: "Procurement Fraud Forensic Accountant UK | Public Sector",
+    metaTitle: "Procurement Fraud Forensic Accountant | Public Sector",
     metaDescription:
-      "Procurement fraud forensic accountant UK: contract steering, fictitious suppliers, kickback schemes, and loss quantification in public and commercial sectors.",
-    h1: "Procurement Fraud Forensic Accountant UK | Public Sector & Commercial",
+      "Procurement fraud forensic accountant: contract steering, fictitious suppliers, kickback schemes, and loss quantification in public and commercial sectors.",
+    h1: "Procurement Fraud Forensic Accountant | Public Sector & Commercial",
     paragraphs: [
       "Procurement fraud includes contract steering, fictitious suppliers, kickback schemes, and split orders designed to avoid tender thresholds. Forensic accountants analyse procurement records against contract awards, identify suspicious patterns, and trace kickback payment flows.",
       "Public sector procurement fraud causes significant taxpayer loss; commercial organisations face equivalent risks in supplier relationships and tender processes. Loss quantification covers overpricing, fictitious services, and diverted contract value.",
@@ -213,10 +213,10 @@ export const fraudTypes: ContentPage[] = [
   {
     slug: "financial-statement-fraud",
     title: "Financial Statement Fraud",
-    metaTitle: "Financial Statement Fraud Forensic Accountant UK",
+    metaTitle: "Financial Statement Fraud Forensic Accountant",
     metaDescription:
-      "Financial statement fraud forensic accountant UK: revenue recognition fraud, false accounting, Fraud Act s4, and SFO enforcement support.",
-    h1: "Financial Statement Fraud Forensic Accountant UK",
+      "Financial statement fraud forensic accountant: revenue recognition fraud, false accounting, Fraud Act s4, and SFO enforcement support.",
+    h1: "Financial Statement Fraud Forensic Accountant",
     paragraphs: [
       "Financial statement fraud involves intentional manipulation of accounts: inflated revenue, understated liabilities, concealed losses, and improper period-end entries. Forensic accountants analyse journal entries, compare published accounts to underlying records, and quantify misstatement impact.",
       "False accounting under the Theft Act section 17 and Fraud Act 2006 section 4 (abuse of position) provide criminal routes. FCA and SFO enforcement against directors and companies for financial misstatement has intensified under the reinvigorated SFO approach.",

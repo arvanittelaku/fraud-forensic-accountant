@@ -6,9 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "How to Instruct a Fraud Forensic Accountant UK | Solicitors & Corporates Guide",
+  title: "How to Instruct a Fraud Forensic Accountant | Solicitors & Corporates Guide",
   description:
-    "How solicitors and corporates instruct a fraud forensic accountant in the UK: civil fraud, criminal defence, internal investigation, or DPA preparation.",
+    "How solicitors and corporates instruct a fraud forensic accountant : civil fraud, criminal defence, internal investigation, or DPA preparation.",
   path: "/how-to-instruct",
 });
 
@@ -38,7 +38,7 @@ export default function HowToInstructPage() {
         <h2>Section 2: Civil Fraud Solicitors</h2>
         <ol>
           <li>Assess urgency: freezing injunction (24-48 hour response) or standard engagement</li>
-          <li>Define asset tracing scope: UK only or cross-border</li>
+          <li>Define asset tracing scope: domestic or cross-border</li>
           <li>Confirm whether CPR Part 35 expert report is required for trial</li>
           <li>Provide documents: bank statements, corporate records, contracts, transaction data</li>
         </ol>

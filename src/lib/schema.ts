@@ -54,7 +54,7 @@ export function articleJsonLd({
     author: { "@id": `${SITE_URL}/#organization` },
     publisher: { "@id": `${SITE_URL}/#organization` },
     mainEntityOfPage: `${SITE_URL}${path}`,
-    inLanguage: "en-GB",
+    inLanguage: "en",
     ...(aboutServiceId && {
       about: { "@id": `${SITE_URL}/services#${aboutServiceId}` },
     }),
@@ -67,12 +67,6 @@ export const organizationSchema = {
   name: SITE_NAME,
   url: SITE_URL,
   email: SITE_EMAIL,
-  address: { "@type": "PostalAddress", addressCountry: "GB" },
-  areaServed: [
-    { "@type": "Country", name: "United Kingdom" },
-    { "@type": "Country", name: "United States" },
-    { "@type": "Place", name: "European Union" },
-  ],
   sameAs: [LINKEDIN_URL],
 };
 
@@ -113,7 +107,6 @@ export function professionalServiceSchema() {
     name: "Fraud Forensic Accountant",
     serviceType: "Fraud Forensic Accountant",
     provider: { "@id": `${SITE_URL}/#organization` },
-    areaServed: organizationSchema.areaServed,
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Fraud Forensic Accountant Services",
@@ -139,7 +132,6 @@ export function servicesPageGraph() {
         "@id": `${SITE_URL}/services#${s.id}`,
         name: s.name,
         provider: { "@id": `${SITE_URL}/#organization` },
-        areaServed: "United Kingdom",
       })),
     ],
   };

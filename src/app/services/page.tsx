@@ -8,9 +8,9 @@ import { breadcrumbJsonLd, servicesPageGraph } from "@/lib/schema";
 import { services } from "@/data/services";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountant Services UK | Full Service List",
+  title: "Fraud Forensic Accountant Services | Full Service List",
   description:
-    "UK fraud forensic accountant services: fraud investigation, asset tracing, POCA confiscation, civil fraud recovery, SFO support, DPA preparation, crypto fraud analysis, and expert witness reports.",
+    "fraud forensic accountant services: fraud investigation, asset tracing, POCA confiscation, civil fraud recovery, SFO support, DPA preparation, crypto fraud analysis, and expert witness reports.",
   path: "/services",
 });
 
@@ -27,8 +27,8 @@ export default function ServicesPage() {
         ]}
       />
       <PageHero
-        title="Fraud Forensic Accountant Services UK"
-        subtitle="Comprehensive fraud forensic accounting services for UK civil fraud, criminal defence, and corporate regulatory matters."
+        title="Fraud Forensic Accountant Services"
+        subtitle="Comprehensive fraud forensic accounting services for civil fraud, criminal defence, and corporate regulatory matters."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Services" }]}
       />
       <section className="py-14 md:py-16">

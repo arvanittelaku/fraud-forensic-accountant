@@ -6,9 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Who We Help | Fraud Forensic Accountants for Defence, Civil Fraud & Corporates UK",
+  title: "Who We Help | Fraud Forensic Accountants for Defence, Civil Fraud & Corporates",
   description:
-    "Fraud forensic accountants for UK criminal defence solicitors, civil fraud solicitors, and corporates facing internal investigations or SFO/FCA enforcement.",
+    "Fraud forensic accountants for criminal defence solicitors, civil fraud solicitors, and corporates facing internal investigations or SFO/FCA enforcement.",
   path: "/who-we-help",
 });
 
@@ -23,7 +23,7 @@ export default function WhoWeHelpPage() {
       />
       <PageHero
         title="Who We Help"
-        subtitle="Fraud forensic accountants for three distinct UK client groups: criminal defence, civil fraud recovery, and corporates facing internal or regulatory investigations."
+        subtitle="Fraud forensic accountants for three distinct client groups: criminal defence, civil fraud recovery, and corporates facing internal or regulatory investigations."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Who We Help" }]}
       />
       <section className="py-14 md:py-16">

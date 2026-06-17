@@ -9,7 +9,7 @@ import { siteFaqs } from "@/data/faq";
 import { faqRelatedLinks } from "@/data/faq-related-links";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountant FAQ UK | Civil, Criminal & Corporate Questions",
+  title: "Fraud Forensic Accountant FAQ | Civil, Criminal & Corporate Questions",
   description:
     "Answers to common questions about fraud forensic accountants: POCA, UWOs, DPAs, FTPF, civil vs criminal fraud, crypto fraud, asset tracing, and fees.",
   path: "/faq",
@@ -28,7 +28,7 @@ export default function FaqPage() {
         ]}
       />
       <PageHero
-        title="Fraud Forensic Accountant FAQ UK"
+        title="Fraud Forensic Accountant FAQ"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "FAQ" }]}
       />
       <ContentSection>

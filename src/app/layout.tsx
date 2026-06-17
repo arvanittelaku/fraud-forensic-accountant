@@ -24,9 +24,9 @@ export const viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   ...buildMetadata({
-    title: "Fraud Forensic Accountant UK | Civil & Criminal Fraud Investigations",
+    title: "Fraud Forensic Accountant | Civil & Criminal Fraud Investigations",
     description:
-      "Find a qualified fraud forensic accountant in the UK. Expert witnesses and investigators for civil fraud recovery, criminal defence, SFO investigations, POCA, UWOs, and corporate DPA negotiations.",
+      "Find a qualified fraud forensic accountant. Expert witnesses and investigators for civil fraud recovery, criminal defence, SFO investigations, POCA, UWOs, and corporate DPA negotiations.",
     path: "/",
   }),
 };
@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-GB" className={`${inter.variable} h-full`}>
+    <html lang="en" className={`${inter.variable} h-full`}>
       <head>
         {/* Google Consent Mode v2 defaults (denied) before any Google tag loads */}
         <Script id="consent-default" strategy="beforeInteractive">

@@ -38,7 +38,7 @@ export const guides: GuidePage[] = [
     title: "Civil Fraud Recovery Guide",
     metaTitle: "Civil Fraud Recovery: Forensic Accounting Evidence Guide",
     metaDescription:
-      "Civil fraud recovery forensic guide: freezing injunctions, Norwich Pharmacal, asset tracing, CPR Part 35, and UWOs for UK solicitors.",
+      "Civil fraud recovery forensic guide: freezing injunctions, Norwich Pharmacal, asset tracing, CPR Part 35, and UWOs for solicitors.",
     h1: "Civil Fraud Recovery: Forensic Accounting Evidence Guide",
     paragraphs: [
       "Civil fraud recovery in the High Court combines proprietary tracing claims, personal damages claims, and interim remedies including freezing injunctions and Norwich Pharmacal orders. Speed is critical: assets can be dissipated within hours of a fraud being discovered.",
@@ -68,10 +68,10 @@ export const guides: GuidePage[] = [
   {
     slug: "crypto-fraud-forensic-guide",
     title: "Crypto Fraud Investigation Guide",
-    metaTitle: "Crypto Fraud Investigation: Forensic Accounting Guide for UK Solicitors",
+    metaTitle: "Crypto Fraud Investigation: Forensic Accounting Guide for Solicitors",
     metaDescription:
       "Crypto fraud forensic guide: blockchain analysis, wallet tracing, POCA crypto recovery, and FCA cryptoasset regulation 2027.",
-    h1: "Crypto Fraud Investigation: Forensic Accounting Guide for UK Solicitors",
+    h1: "Crypto Fraud Investigation: Forensic Accounting Guide for Solicitors",
     paragraphs: [
       "Cryptocurrency fraud requires blockchain transaction analysis, wallet identification, and exchange account investigation. Forensic accountants use tools such as Chainalysis and Elliptic to trace stolen assets through obfuscating transaction chains.",
       "Part 5 POCA has been amended to specifically allow civil recovery of crypto-assets as property obtained through unlawful conduct, without requiring criminal conviction. Forensic evidence establishes the crypto represents recoverable property.",

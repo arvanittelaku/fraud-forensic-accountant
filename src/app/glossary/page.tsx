@@ -8,9 +8,9 @@ import { breadcrumbJsonLd, faqPageJsonLd } from "@/lib/schema";
 import { glossaryTerms } from "@/data/glossary";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountant Glossary | Key UK Legal & Investigation Terms",
+  title: "Fraud Forensic Accountant Glossary | Key Legal & Investigation Terms",
   description:
-    "Definitions of key fraud forensic accounting and financial crime terms for UK proceedings: from POCA to UWOs, DPAs, freezing orders, and CPR Part 35.",
+    "Definitions of key fraud forensic accounting and financial crime terms for proceedings: from POCA to UWOs, DPAs, freezing orders, and CPR Part 35.",
   path: "/glossary",
 });
 
@@ -32,7 +32,7 @@ export default function GlossaryPage() {
       />
       <PageHero
         title="Fraud Forensic Accountant Glossary"
-        subtitle="Key UK legal and investigation terms for fraud forensic accounting proceedings."
+        subtitle="Key legal and investigation terms for fraud forensic accounting proceedings."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Glossary" }]}
       />
       <ContentSection>

@@ -8,7 +8,7 @@ import { SITE_EMAIL } from "@/lib/site";
 export const metadata = buildMetadata({
   title: "Cookie Policy | FraudForensicAccountant.com",
   description:
-    "How FraudForensicAccountant.com uses cookies and similar technologies, your choices under UK GDPR, and how to manage consent.",
+    "How FraudForensicAccountant.com uses cookies and similar technologies, your choices under GDPR, and how to manage consent.",
   path: "/cookies",
 });
 
@@ -77,11 +77,11 @@ export default function CookiesPage() {
           consent.
         </p>
 
-        <h2>Legal Basis (UK / EEA)</h2>
+        <h2>Legal Basis (EEA)</h2>
         <p>
           Necessary cookies are used based on legitimate interests in providing a secure, functional
           website. Analytics, marketing, and preferences cookies are used only with your consent
-          (UK GDPR Article 6(1)(a) and PECR/ePrivacy rules on storing/accessing information on your
+          (GDPR Article 6(1)(a) and PECR/ePrivacy rules on storing/accessing information on your
           device).
         </p>
 

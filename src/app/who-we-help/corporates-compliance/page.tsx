@@ -8,9 +8,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd, organizationSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountants for Corporates UK | Internal Investigations & DPA Preparation",
+  title: "Fraud Forensic Accountants for Corporates | Internal Investigations & DPA Preparation",
   description:
-    "Fraud forensic accountants for UK corporates. Internal fraud investigations, SFO self-reporting support, DPA negotiation, FTPF compliance advisory, and remediation programmes.",
+    "Fraud forensic accountants for corporates. Internal fraud investigations, SFO self-reporting support, DPA negotiation, FTPF compliance advisory, and remediation programmes.",
   path: "/who-we-help/corporates-compliance",
 });
 
@@ -31,7 +31,7 @@ export default function CorporatesCompliancePage() {
         }}
       />
       <PageHero
-        title="Fraud Forensic Accountants for Corporates & Compliance Teams UK"
+        title="Fraud Forensic Accountants for Corporates & Compliance Teams"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Who We Help", href: "/who-we-help" },

@@ -10,9 +10,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "What Is a Fraud Forensic Accountant? | UK Role, POCA & Expert Evidence",
+  title: "What Is a Fraud Forensic Accountant? | Role, POCA & Expert Evidence",
   description:
-    "A fraud forensic accountant investigates financial crime, quantifies fraud losses, traces assets, and provides expert evidence in UK civil and criminal proceedings. POCA, UWOs, DPAs, and CPR Part 35 explained.",
+    "A fraud forensic accountant investigates financial crime, quantifies fraud losses, traces assets, and provides expert evidence in civil and criminal proceedings. POCA, UWOs, DPAs, and CPR Part 35 explained.",
   path: "/what-is-a-fraud-forensic-accountant",
 });
 
@@ -130,7 +130,7 @@ export default function WhatIsPage() {
           <li>Regulatory investigation support</li>
         </ul>
         <p>
-          <Link href="/fraud-forensic-accounting-explained">Read the complete UK guide to fraud forensic accounting →</Link>
+          <Link href="/fraud-forensic-accounting-explained">Read the complete guide to fraud forensic accounting →</Link>
         </p>
         <InternalLinkGrid title="Explore related topics" links={WHAT_IS_LINKS} />
       </ContentSection>

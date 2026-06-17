@@ -6,6 +6,7 @@ import {
   sanitizeLeadText,
   type LeadSubmission,
 } from "@/lib/leads";
+import { SITE_EMAIL } from "@/lib/site";
 
 export async function POST(request: NextRequest) {
   try {
@@ -66,7 +67,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json(
         {
           success: false,
-          error: "Unable to save submission. Please email info@fraudforensicaccountant.com",
+          error: `Unable to save submission. Please email ${SITE_EMAIL}`,
         },
         { status: 500 }
       );

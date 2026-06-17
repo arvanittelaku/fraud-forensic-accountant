@@ -24,7 +24,7 @@ export async function generateMetadata({
   const service = getService(slug);
   if (!service) return {};
   return buildMetadata({
-    title: `${service.title} | Fraud Forensic Accountant UK`,
+    title: `${service.title} | Fraud Forensic Accountant`,
     description: service.short,
     path: `/services/${slug}`,
   });

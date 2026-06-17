@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Fraud Forensic Accountant UK";
+export const alt = "Fraud Forensic Accountant";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -31,7 +31,7 @@ export default function OpenGraphImage() {
           FraudForensicAccountant.com
         </div>
         <div style={{ fontSize: 56, fontWeight: 700, lineHeight: 1.15, maxWidth: 900 }}>
-          Fraud Forensic Accountant UK
+          Fraud Forensic Accountant
         </div>
         <div style={{ fontSize: 28, marginTop: 24, color: "rgba(255,255,255,0.85)" }}>
           Civil and criminal fraud investigations | POCA | UWOs | DPAs

@@ -1,10 +1,11 @@
 import { buildMetadata } from "@/lib/metadata";
 import { PageHero } from "@/components/PageHero";
 import { ContentSection } from "@/components/ContentSection";
+import { SITE_EMAIL } from "@/lib/site";
 
 export const metadata = buildMetadata({
   title: "Privacy Policy | FraudForensicAccountant.com",
-  description: "Privacy policy for FraudForensicAccountant.com under UK GDPR.",
+  description: "Privacy policy for FraudForensicAccountant.com under GDPR.",
   path: "/privacy",
   noindex: true,
   follow: true,
@@ -19,8 +20,8 @@ export default function PrivacyPage() {
         <h2>Who We Are</h2>
         <p>
           FraudForensicAccountant.com operates as a referral service connecting solicitors and
-          corporates with qualified fraud forensic accountants in the United Kingdom. For data
-          protection enquiries, contact info@fraudforensicaccountant.com.
+          corporates with qualified fraud forensic accountants. For data protection enquiries,
+          contact {SITE_EMAIL}.
         </p>
         <h2>Data We Collect</h2>
         <p>
@@ -45,9 +46,9 @@ export default function PrivacyPage() {
         </p>
         <h2>Your Rights</h2>
         <p>
-          Under UK GDPR you have rights of access, rectification, erasure, restriction, portability,
+          Under GDPR you have rights of access, rectification, erasure, restriction, portability,
           and objection. You may lodge a complaint with the Information Commissioner&apos;s Office (ICO).
-          Contact info@fraudforensicaccountant.com to exercise your rights.
+          Contact {SITE_EMAIL} to exercise your rights.
         </p>
         <h2>Cookies & Analytics</h2>
         <p>

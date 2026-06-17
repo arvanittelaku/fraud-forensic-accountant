@@ -6,9 +6,9 @@ import { breadcrumbJsonLd, personJsonLd } from "@/lib/schema";
 import { experts } from "@/data/experts";
 
 export const metadata = buildMetadata({
-  title: "Our Fraud Forensic Accountants | UK Fraud Investigation Specialists",
+  title: "Our Fraud Forensic Accountants | Fraud Investigation Specialists",
   description:
-    "FraudForensicAccountant.com connects UK solicitors and corporates with qualified fraud forensic accountants: CFE and ACA credentialed specialists in civil and criminal fraud proceedings.",
+    "FraudForensicAccountant.com connects solicitors and corporates with qualified fraud forensic accountants: CFE and ACA credentialed specialists in civil and criminal fraud proceedings.",
   path: "/experts",
 });
 
@@ -34,7 +34,7 @@ export default function ExpertsPage() {
       />
       <PageHero
         title="Our Fraud Forensic Accountants"
-        subtitle="UK fraud investigation specialists with CFE, ACA, and FCA credentials across civil fraud, criminal defence, and corporate investigations."
+        subtitle="Fraud investigation specialists with CFE, ACA, and FCA credentials across civil fraud, criminal defence, and corporate investigations."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Experts" }]}
       />
       <section className="py-14 md:py-16">

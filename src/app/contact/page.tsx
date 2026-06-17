@@ -6,9 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Instruct a Fraud Forensic Accountant | FraudForensicAccountant.com UK",
+  title: "Instruct a Fraud Forensic Accountant | FraudForensicAccountant.com",
   description:
-    "Submit your case details to be matched with a qualified UK fraud forensic accountant for civil fraud, criminal defence, or corporate investigation. Response within 1 business day.",
+    "Submit your case details to be matched with a qualified fraud forensic accountant for civil fraud, criminal defence, or corporate investigation. Response within 1 business day.",
   path: "/contact",
 });
 

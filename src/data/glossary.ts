@@ -15,7 +15,7 @@ export const glossaryTerms: (FaqItem & { slug?: string })[] = [
   {
     question: "Bribery Act 2010",
     answer:
-      "UK legislation criminalising bribery including the corporate offence of failure to prevent bribery (section 7). Central to SFO investigations and DPA negotiations.",
+      "Legislation criminalising bribery including the corporate offence of failure to prevent bribery (section 7). Central to SFO investigations and DPA negotiations.",
   },
   {
     question: "CAMS (Certified Anti-Money Laundering Specialist)",
@@ -147,7 +147,7 @@ export const glossaryTerms: (FaqItem & { slug?: string })[] = [
   {
     question: "POCA 2002 (Proceeds of Crime Act)",
     answer:
-      "Primary UK legislation for criminal confiscation (Part 2) and civil recovery (Part 5) of proceeds of crime.",
+      "Primary Legislation for criminal confiscation (Part 2) and civil recovery (Part 5) of proceeds of crime.",
     slug: "/fraud-forensic-accounting-explained",
   },
   {
@@ -170,7 +170,7 @@ export const glossaryTerms: (FaqItem & { slug?: string })[] = [
   {
     question: "Serious Fraud Office (SFO)",
     answer:
-      "UK agency investigating and prosecuting serious fraud, bribery, and corruption. Reinvigorated approach under Nick Ephgrave from 2025.",
+      "Agency investigating and prosecuting serious fraud, bribery, and corruption. Reinvigorated approach under Nick Ephgrave from 2025.",
     slug: "/case-types/sfo-fraud-investigation",
   },
   {

@@ -9,9 +9,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountant Qualifications UK | CFE, ACA & Specialist Credentials",
+  title: "Fraud Forensic Accountant Qualifications | CFE, ACA & Specialist Credentials",
   description:
-    "What credentials should a UK fraud forensic accountant hold? CFE, ACA, FCA, CAMS, and specialist investigation credentials explained, plus CPR Part 35 and CrPR compliance.",
+    "What credentials should a fraud forensic accountant hold? CFE, ACA, FCA, CAMS, and specialist investigation credentials explained, plus CPR Part 35 and CrPR compliance.",
   path: "/qualifications",
 });
 

@@ -4,10 +4,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "sfo-fraud-investigation",
     title: "SFO Fraud Investigation",
-    metaTitle: "SFO Fraud Investigation Forensic Accountant UK",
+    metaTitle: "SFO Fraud Investigation Forensic Accountant",
     metaDescription:
-      "SFO fraud investigation forensic accountant UK: Section 2 notices, defence support, 2025 reinvigoration, and self-reporting implications.",
-    h1: "SFO Fraud Investigation Forensic Accountant UK",
+      "SFO fraud investigation forensic accountant: Section 2 notices, defence support, 2025 reinvigoration, and self-reporting implications.",
+    h1: "SFO Fraud Investigation Forensic Accountant",
     paragraphs: [
       "The Serious Fraud Office investigates and prosecutes serious or complex fraud, bribery, and corruption. Section 2 notices under the Criminal Justice Act 1987 compel document production and answers to questions. Forensic accountants assist defence teams by reviewing financial materials before production and reconstructing the financial picture from disclosure.",
       "Under Director Nick Ephgrave, the SFO has adopted a more proactive approach: 8 new investigations opened in 2025 and 5 cases listed for trial in 2026. Corporates facing SFO interest must understand both investigation defence and self-reporting pathways.",
@@ -34,10 +34,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "poca-confiscation-defence",
     title: "POCA Confiscation Defence",
-    metaTitle: "POCA Confiscation Defence Forensic Accountant UK",
+    metaTitle: "POCA Confiscation Defence Forensic Accountant",
     metaDescription:
-      "POCA confiscation defence forensic accountant UK: benefit calculation challenges, available assets, tainted gifts, and Newton hearings.",
-    h1: "POCA Confiscation Defence Forensic Accountant UK",
+      "POCA confiscation defence forensic accountant: benefit calculation challenges, available assets, tainted gifts, and Newton hearings.",
+    h1: "POCA Confiscation Defence Forensic Accountant",
     paragraphs: [
       "Following conviction, the court may make a confiscation order under POCA Part 2. Benefit from criminal conduct is calculated on a gross proceeds basis (all payments from criminal activity, not net gain). Available assets are assessed; the order equals the lesser of benefit and available assets.",
       "Defence forensic accountants challenge prosecution benefit figures by identifying legitimate business receipts incorrectly included, demonstrating legitimate fund sources, and challenging attribution of corporate receipts to individuals.",
@@ -61,10 +61,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "civil-fraud-recovery-proceedings",
     title: "Civil Fraud Recovery",
-    metaTitle: "Civil Fraud Recovery Forensic Accountant UK",
+    metaTitle: "Civil Fraud Recovery Forensic Accountant",
     metaDescription:
-      "Civil fraud recovery forensic accountant UK: freezing injunctions, proprietary tracing, knowing receipt, and CPR Part 35 expert evidence.",
-    h1: "Civil Fraud Recovery Forensic Accountant UK",
+      "Civil fraud recovery forensic accountant: freezing injunctions, proprietary tracing, knowing receipt, and CPR Part 35 expert evidence.",
+    h1: "Civil Fraud Recovery Forensic Accountant",
     paragraphs: [
       "High Court civil fraud proceedings include proprietary claims (tracing fraudulently taken assets), personal claims (compensatory damages), knowing receipt, and dishonest assistance. Forensic accountants trace assets and quantify loss for both claim types.",
       "Freezing injunction applications require evidence of a good arguable case, identifiable assets, and real risk of dissipation. Forensic accountants provide urgent preliminary quantum evidence and preliminary asset tracing, typically within 24-48 hours.",
@@ -88,10 +88,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "unexplained-wealth-orders",
     title: "Unexplained Wealth Orders",
-    metaTitle: "Unexplained Wealth Order Forensic Accountant UK",
+    metaTitle: "Unexplained Wealth Order Forensic Accountant",
     metaDescription:
-      "UWO forensic accountant UK: £50,000 threshold, interim freezing orders, SFO enforcement, and forensic rebuttal methodology.",
-    h1: "Unexplained Wealth Order Forensic Accountant UK",
+      "UWO forensic accountant: £50,000 threshold, interim freezing orders, SFO enforcement, and forensic rebuttal methodology.",
+    h1: "Unexplained Wealth Order Forensic Accountant",
     paragraphs: [
       "Unexplained Wealth Orders (UWOs) require respondents to explain how they obtained specified property worth more than £50,000 where enforcement agencies have reasonable grounds to suspect insufficient legitimate income. The SFO, NCA, HMRC, CPS, and FCA may apply.",
       "Failure to provide an adequate explanation creates a rebuttable presumption that property is recoverable under POCA. Early forensic accounting to trace the audit trail of acquisition funds is essential for effective response.",
@@ -115,10 +115,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "deferred-prosecution-agreement",
     title: "Deferred Prosecution Agreement",
-    metaTitle: "DPA Negotiation Forensic Accountant UK | Financial Settlement",
+    metaTitle: "DPA Negotiation Forensic Accountant | Financial Settlement",
     metaDescription:
-      "DPA negotiation forensic accountant UK: disgorgement calculation, penalty modelling, and SFO self-reporting financial evidence.",
-    h1: "DPA Negotiation Forensic Accountant UK | Quantifying the Financial Settlement",
+      "DPA negotiation forensic accountant: disgorgement calculation, penalty modelling, and SFO self-reporting financial evidence.",
+    h1: "DPA Negotiation Forensic Accountant | Quantifying the Financial Settlement",
     paragraphs: [
       "A Deferred Prosecution Agreement (DPA) defers prosecution of a corporate in exchange for cooperation, remediation, and financial payment under court supervision. The financial settlement comprises disgorgement, financial penalty (typically equal to or greater than disgorgement), and costs.",
       "SFO 2025 guidance explicitly links self-reporting and full cooperation to DPA invitation. Forensic accountants quantify the scope of misconduct and model disgorgement before disclosure, establishing the foundation for negotiation.",
@@ -142,10 +142,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "fca-enforcement-investigation",
     title: "FCA Enforcement Investigation",
-    metaTitle: "FCA Enforcement Investigation Forensic Accountant UK",
+    metaTitle: "FCA Enforcement Investigation Forensic Accountant",
     metaDescription:
-      "FCA enforcement forensic accountant UK: market abuse, insider dealing, unauthorised promotions, and DEPP proceedings support.",
-    h1: "FCA Enforcement Investigation Forensic Accountant UK",
+      "FCA enforcement forensic accountant: market abuse, insider dealing, unauthorised promotions, and DEPP proceedings support.",
+    h1: "FCA Enforcement Investigation Forensic Accountant",
     paragraphs: [
       "The Financial Conduct Authority enforces market abuse, insider dealing, unauthorised financial promotions, and firm conduct requirements. Forensic accountants analyse trading records, financial promotions, and firm financial positions underlying FCA cases.",
       "Recent enforcement includes action against former Carillion executives and influencers for unauthorised financial promotions. Expert reports address the specific financial analysis on which the FCA's case rests.",
@@ -172,10 +172,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "hmrc-fraud-investigation",
     title: "HMRC Fraud Investigation",
-    metaTitle: "HMRC Fraud Investigation Forensic Accountant UK",
+    metaTitle: "HMRC Fraud Investigation Forensic Accountant",
     metaDescription:
-      "HMRC fraud investigation forensic accountant UK: COP8, COP9, tax reconstruction, and whistleblower reward scheme cases.",
-    h1: "HMRC Fraud Investigation Forensic Accountant UK",
+      "HMRC fraud investigation forensic accountant: COP8, COP9, tax reconstruction, and whistleblower reward scheme cases.",
+    h1: "HMRC Fraud Investigation Forensic Accountant",
     paragraphs: [
       "HMRC's Fraud Investigation Service handles serious tax fraud through COP8 civil procedures and COP9 criminal investigations. Forensic accountants reconstruct financial records and quantify tax liabilities in both pathways.",
       "COP8 allows disclosure and settlement; COP9 signals potential criminal prosecution. The choice of procedure determines engagement strategy and urgency of forensic response.",
@@ -199,10 +199,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "private-prosecution-fraud",
     title: "Private Prosecution for Fraud",
-    metaTitle: "Private Prosecution Fraud Forensic Accountant UK",
+    metaTitle: "Private Prosecution Fraud Forensic Accountant",
     metaDescription:
-      "Private prosecution fraud forensic accountant UK: financial evidence packages for Crown Court fraud prosecutions when police decline to act.",
-    h1: "Private Prosecution Fraud Forensic Accountant UK",
+      "Private prosecution fraud forensic accountant: financial evidence packages for Crown Court fraud prosecutions when police decline to act.",
+    h1: "Private Prosecution Fraud Forensic Accountant",
     paragraphs: [
       "Private prosecution allows fraud victims to bring criminal proceedings when police decline to investigate or progress cases too slowly. Forensic accountants build prosecution-quality financial evidence packages equivalent to CPS standards.",
       "The route suits complex fraud exceeding police resource capacity and cases requiring faster action than typical criminal timelines allow. Clear documentary evidence, loss quantification, and defendant linkage are essential.",
@@ -226,10 +226,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "money-laundering-proceedings",
     title: "Money Laundering Proceedings",
-    metaTitle: "Money Laundering Proceedings Forensic Accountant UK",
+    metaTitle: "Money Laundering Proceedings Forensic Accountant",
     metaDescription:
-      "Money laundering proceedings forensic accountant UK: POCA ss327-329, DAML consent, NCA investigations, and proceeds tracing.",
-    h1: "Money Laundering Proceedings Forensic Accountant UK",
+      "Money laundering proceedings forensic accountant: POCA ss327-329, DAML consent, NCA investigations, and proceeds tracing.",
+    h1: "Money Laundering Proceedings Forensic Accountant",
     paragraphs: [
       "POCA money laundering offences (sections 327-329) criminalise concealing, converting, transferring, and acquiring criminal property. Defence requires showing lack of knowledge or suspicion, or legitimate fund provenance.",
       "DAML (Defence Against Money Laundering) consent applications arise when regulated firms suspect held funds are criminal proceeds. Forensic accountants analyse transactions and trace suspicious flows for NCA consent decisions.",
@@ -253,10 +253,10 @@ export const caseTypes: ContentPage[] = [
   {
     slug: "corporate-internal-investigation",
     title: "Corporate Internal Investigation",
-    metaTitle: "Corporate Internal Investigation Forensic Accountant UK",
+    metaTitle: "Corporate Internal Investigation Forensic Accountant",
     metaDescription:
-      "Corporate internal investigation forensic accountant UK: LPP protection, scope methodology, and SFO self-reporting preparation.",
-    h1: "Corporate Internal Investigation Forensic Accountant UK",
+      "Corporate internal investigation forensic accountant: LPP protection, scope methodology, and SFO self-reporting preparation.",
+    h1: "Corporate Internal Investigation Forensic Accountant",
     paragraphs: [
       "Corporate internal investigations begin with suspicion, tip-offs, or regulatory enquiries before full scope is clear. Conducting via external legal counsel protects investigation findings under legal professional privilege.",
       "Forensic accountants preserve and analyse financial evidence, quantify wrongdoing, and produce investigation reports advising on self-reporting to SFO or FCA. SFO 2025 cooperation guidance includes facilitating overseas data access and waiving privilege over factual accounts.",

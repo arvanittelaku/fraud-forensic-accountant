@@ -4,7 +4,7 @@ export const siteFaqs: FaqItem[] = [
   {
     question: "What is a fraud forensic accountant?",
     answer:
-      "A fraud forensic accountant is a specialist forensic accountant who applies investigative accounting expertise specifically to fraud and financial crime. They investigate financial facts, quantify losses, trace proceeds of fraud, and provide expert evidence in UK civil and criminal proceedings including POCA, UWOs, and DPA negotiations.",
+      "A fraud forensic accountant is a specialist forensic accountant who applies investigative accounting expertise specifically to fraud and financial crime. They investigate financial facts, quantify losses, trace proceeds of fraud, and provide expert evidence in civil and criminal proceedings including POCA, UWOs, and DPA negotiations.",
   },
   {
     question: "What is the difference between civil fraud and criminal fraud?",
@@ -47,7 +47,7 @@ export const siteFaqs: FaqItem[] = [
       "Corporates should typically conduct an internal investigation via external legal counsel (protected by legal professional privilege) before deciding whether to self-report. Forensic accountants quantify the scope of wrongdoing so the board can make an informed decision. Self-reporting now explicitly leads to DPA invitation under 2025 guidance, but does not guarantee immunity from prosecution.",
   },
   {
-    question: "What credentials should a UK fraud forensic accountant hold?",
+    question: "What credentials should a fraud forensic accountant hold?",
     answer:
       "Core credentials include CFE (Certified Fraud Examiner), ACA or FCA (chartered accountancy), and CAMS for AML work. Experience in POCA proceedings, SFO/FCA investigations, and both CPR Part 35 and CrPR Part 33 reporting is essential. ICAEW forensic accreditation and digital forensics credentials support crypto and electronic evidence cases.",
   },

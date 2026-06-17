@@ -10,10 +10,10 @@ import { JsonLd } from "@/components/JsonLd";
 import { articleJsonLd, breadcrumbJsonLd } from "@/lib/schema";
 
 const PAGE_DESCRIPTION =
-  "The complete guide to fraud forensic accounting in the UK: civil fraud vs criminal prosecution, POCA confiscation, unexplained wealth orders, deferred prosecution agreements, and asset tracing methodology.";
+  "The complete guide to fraud forensic accounting: civil fraud vs criminal prosecution, POCA confiscation, unexplained wealth orders, deferred prosecution agreements, and asset tracing methodology.";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accounting Explained | Civil vs Criminal, POCA, UWOs & DPAs UK",
+  title: "Fraud Forensic Accounting Explained | Civil vs Criminal, POCA, UWOs & DPAs",
   description: PAGE_DESCRIPTION,
   path: "/fraud-forensic-accounting-explained",
 });
@@ -24,7 +24,7 @@ export default function FraudExplainedPage() {
       <JsonLd
         data={[
           articleJsonLd({
-            headline: "Fraud Forensic Accounting Explained: The Complete UK Guide",
+            headline: "Fraud Forensic Accounting Explained: The Complete Guide",
             description: PAGE_DESCRIPTION,
             path: "/fraud-forensic-accounting-explained",
             aboutServiceId: "fraud-investigation-evidence",
@@ -39,8 +39,8 @@ export default function FraudExplainedPage() {
         ]}
       />
       <PageHero
-        title="Fraud Forensic Accounting Explained: The Complete UK Guide"
-        subtitle="The definitive UK resource on civil vs criminal fraud, POCA, UWOs, DPAs, asset tracing, crypto fraud, and FTPF corporate accountability."
+        title="Fraud Forensic Accounting Explained: The Complete Guide"
+        subtitle="The definitive resource on civil vs criminal fraud, POCA, UWOs, DPAs, asset tracing, crypto fraud, and FTPF corporate accountability."
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Fraud Forensic Accounting Explained" },
@@ -241,7 +241,7 @@ export default function FraudExplainedPage() {
         </p>
 
         <InternalLinkGrid
-          title="Explore fraud forensic accounting in the UK"
+          title="Explore fraud forensic accounting"
           links={PILLAR_PAGE_LINKS}
           columns={3}
         />

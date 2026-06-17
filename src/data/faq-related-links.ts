@@ -39,7 +39,7 @@ export const faqRelatedLinks: Record<string, InternalLink[]> = {
     { href: "/guides/internal-investigation-lpp-guide", label: "Internal investigation and LPP" },
     { href: "/guides/sfo-enforcement-update-2025", label: "SFO enforcement update" },
   ],
-  "What credentials should a UK fraud forensic accountant hold?": [
+  "What credentials should a fraud forensic accountant hold?": [
     { href: "/qualifications", label: "Qualifications and CPR Part 35" },
     { href: "/experts", label: "Our experts" },
   ],

@@ -7,9 +7,9 @@ import { breadcrumbJsonLd } from "@/lib/schema";
 import { guides } from "@/data/guides";
 
 export const metadata = buildMetadata({
-  title: "Guides: Fraud Forensic Accountants UK | POCA, DPAs, Civil Recovery & More",
+  title: "Guides: Fraud Forensic Accountants | POCA, DPAs, Civil Recovery & More",
   description:
-    "In-depth guides for UK solicitors and corporates on fraud forensic accountants: POCA confiscation, civil fraud recovery, SFO self-reporting, DPAs, and crypto fraud.",
+    "In-depth guides for solicitors and corporates on fraud forensic accountants: POCA confiscation, civil fraud recovery, SFO self-reporting, DPAs, and crypto fraud.",
   path: "/guides",
 });
 
@@ -23,7 +23,7 @@ export default function GuidesHubPage() {
         ])}
       />
       <PageHero
-        title="Guides: Fraud Forensic Accountants UK"
+        title="Guides: Fraud Forensic Accountants"
         subtitle="In-depth resources on POCA, DPAs, civil recovery, SFO enforcement, crypto fraud, and corporate internal investigations."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Guides" }]}
       />

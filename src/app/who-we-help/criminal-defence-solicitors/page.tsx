@@ -8,9 +8,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd, organizationSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountants for Criminal Defence UK | SFO, FCA & Crown Court",
+  title: "Fraud Forensic Accountants for Criminal Defence | SFO, FCA & Crown Court",
   description:
-    "Fraud forensic accountants for UK criminal defence solicitors. POCA confiscation defence, SFO investigation support, benefit calculation, and expert evidence in Crown Court proceedings.",
+    "Fraud forensic accountants for criminal defence solicitors. POCA confiscation defence, SFO investigation support, benefit calculation, and expert evidence in Crown Court proceedings.",
   path: "/who-we-help/criminal-defence-solicitors",
 });
 
@@ -34,7 +34,7 @@ export default function CriminalDefencePage() {
         }}
       />
       <PageHero
-        title="Fraud Forensic Accountants for Criminal Defence Solicitors UK"
+        title="Fraud Forensic Accountants for Criminal Defence Solicitors"
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Who We Help", href: "/who-we-help" },

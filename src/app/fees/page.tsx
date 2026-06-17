@@ -6,9 +6,9 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/schema";
 
 export const metadata = buildMetadata({
-  title: "Fraud Forensic Accountant Fees UK | 2025 Hourly Rates & Investigation Costs",
+  title: "Fraud Forensic Accountant Fees | 2025 Hourly Rates & Investigation Costs",
   description:
-    "UK fraud forensic accountant fees: investigation costs £150-£600/hour, expert witness reports £5,000-£75,000+. Civil, criminal, and corporate engagement costs explained.",
+    "fraud forensic accountant fees: investigation costs £150-£600/hour, expert witness reports £5,000-£75,000+. Civil, criminal, and corporate engagement costs explained.",
   path: "/fees",
 });
 
@@ -22,7 +22,7 @@ export default function FeesPage() {
         ])}
       />
       <PageHero
-        title="Fraud Forensic Accountant Fees UK"
+        title="Fraud Forensic Accountant Fees"
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Fees" }]}
       />
       <ContentSection>

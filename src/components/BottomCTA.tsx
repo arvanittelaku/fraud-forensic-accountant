@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function BottomCTA({
   title = "Instruct a Qualified Fraud Forensic Accountant",
-  description = "Submit your case details and we will match you with a UK fraud forensic accountant for civil fraud, criminal defence, or corporate investigation. Response within 1 business day.",
+  description = "Submit your case details and we will match you with a fraud forensic accountant for civil fraud, criminal defence, or corporate investigation. Response within 1 business day.",
   buttonText = "Instruct an Expert",
   buttonHref = "/contact",
 }: {
